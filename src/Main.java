@@ -15,6 +15,7 @@ public static final int COL_PUBLISHER = 11;
 
         if (args.length != 1) {
             System.out.println("Please input file path in your command line argument");
+            return;
         }
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(args[0]))) {
